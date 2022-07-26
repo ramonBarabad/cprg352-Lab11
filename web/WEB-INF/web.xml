@@ -47,11 +47,13 @@
     <env-entry>
         <env-entry-name>webmail-username</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
-        <env-entry-value>[sending_gmail_account_address]</env-entry-value>
+        <env-entry-value>cprg352.rpbarabad@gmail.com</env-entry-value>
     </env-entry>
     <env-entry>
         <env-entry-name>webmail-password</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
-        <env-entry-value>[sending_gmail_account_password]</env-entry-value>
+        <env-entry-value>ecsilekzvwawvdva</env-entry-value>
     </env-entry>
+    <!--EMAIL PASS: ramonpassword-->
+    
 </web-app>

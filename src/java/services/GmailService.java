@@ -76,11 +76,11 @@ public class GmailService {
         Address toAddress = new InternetAddress(to);
         message.setFrom(fromAddress);
         message.setRecipient(Message.RecipientType.TO, toAddress);
-
+        
         // send the message
         Transport transport = session.getTransport();
         transport.connect(username, password);
         transport.sendMessage(message, message.getAllRecipients());
-        transport.close();
+        
     }
 }
